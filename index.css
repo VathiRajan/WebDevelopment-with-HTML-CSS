@@ -1,0 +1,35 @@
+#main-element{
+    padding:10px;
+    border-color:black;
+    border-style:solid;
+    background-color:beige;
+    margin-top:5px
+}
+#first-section{
+    padding:50px;
+    border-style:double;
+    border-color: blue;
+}
+.red-text {
+    color: red;
+}
+
+h2 {
+    font-family: Lobster, monospace;
+}
+
+p {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+
+.thick-green-border {
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.smaller-image {
+    width: 100px;
+}

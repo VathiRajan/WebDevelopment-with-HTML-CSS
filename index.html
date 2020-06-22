@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FreeCodeCamp WebDev</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- border-radius Circleborder-color: green;-->
+    <!-- border-width is for width -->
+    <!-- border-style is for mentioning solid, dotted;-->
+
+
+</head>
+
+<body>
+    <div id="main-element">
+        <div id="first-section">
+            <main>
+                <h1>
+                    Welcome to the FreeCodeCamp's Web Development Bootcamp
+                </h1>
+                <h3>Course Overview</h3>
+            </main>
+            <p>The course Coveres the following:</p>
+            <ol>
+                <!-- 
+        1. OOL - LI - Numbered List-->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+        </div>
+        <!--1. You can build web forms that actually submit data to a server using nothing 
+        more than pure HTML. You can do this by specifying an action on your form element.
+
+        2. You can require specific form fields so that your user will not be able 
+        to submit your form until he or she has filled them out.-->
+        <form action="home.html">
+            <input type="text" placeholder="paste cat Photo URL here" required> </form>
+
+        <button type="submit"> Submit </button>
+        <p> You can reach the bottom of page by clicking the
+            <a target="_blank" href="#footer">Go Back to bottom of the page</a> Link</p>
+
+        <!--Each of your radio buttons can be nested within its own label element. 
+By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.-->
+        <!--
+    It is considered best practice to set a for attribute on the label element, 
+    with a value that matches the value of the id attribute of the input element. 
+    This allows assistive technologies to create a linked relationship between the 
+    label and the child input element.
+-->
+        <label>
+            <input type="radio" name="indoor-outdoor">Indoor
+            <input type="radio" name="indoor-outdoor" checked>Outdoor
+
+        </label><br>
+
+        <!--All related checkbox inputs should have the same name attribute.
+
+It is considered best practice to explicitly define the relationship between a 
+checkbox input and its corresponding label by setting the for attribute on the 
+label element to match the id attribute of the associated input element.-->
+
+        <!--When a form gets submitted, the data is sent to the server and includes entries for the options 
+    selected. Inputs of type radio and checkbox report their values from the value attribute.-->
+
+
+        <label for="catWalk">
+            <input id="catWalk" type="checkbox" name="personality" value="catwalk">catWalk
+        </label>
+        <!--You can set a checkbox or radio button to be checked by default using the checked attribute.-->
+        <label for="Milk-thief">
+            <input id="Milk-thief" type="checkbox" name="personality" value="milk-thief" checked>Milk thief
+        </label>
+        <!--reference classes by putting a . in front of their names. 
+    You always reference ids by putting a # in front of their names.-->
+        <!--Three important properties control the space that surrounds each HTML element: padding, margin, and border.-->
+        <p>HTML5 introduces more descriptive HTML tags. These include <em><b>main, header, footer, nav, video, article,
+                    section
+                    and
+                    others. </b></em> These tags give a descriptive structure to your HTML, make your HTML easier to
+            read,
+            and
+            help with Search Engine Optimization (SEO) and accessibility. </p>
+        <ul>
+            <li>Main</li>
+            <p>The main HTML5 tag helps search engines and other
+                developers find the main content of your page.</p>
+            <li>
+                Images
+            </li>
+            <p>
+                <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+            </p>
+            <li>
+                Link
+            </li>
+            <p><a href="http://freecatphotoapp.com">Cat Photos</a></p>
+            <p><a href="#">You can create a dead link as well</a></p>
+            <p>(below is the link to image)</p>
+            <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+        </ul>
+        <dl>
+            <dt>Term</dt>
+            <dd>The Description term area</dd>
+        </dl>
+        <h5>Quotes</h5>
+        <blockquote>
+            <p>"Life is short. Love everyone"</p>
+        </blockquote>
+        <Footer id="footer">Copy Rights @2020 </Footer>
+
+
+        <script src="" async defer></script>
+    </div>
+</body>
+
+</html>
